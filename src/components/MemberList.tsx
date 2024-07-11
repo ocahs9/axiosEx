@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getAllMembers } from '../apis/memberApi';
 
 interface Member {
-  id: number;
+  id?: number;
   name: string;
   email: string;
 }
